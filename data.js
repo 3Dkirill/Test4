@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-001",
-      "name": "001",
+      "id": "0-003",
+      "name": "003",
       "levels": [
         {
           "tileSize": 256,
@@ -22,25 +22,69 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2000,
+      "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.01020391746847693,
         "pitch": 0,
-        "fov": 1.403086486818207
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.8307891609138878,
-          "pitch": 0.0643804793541296,
+          "yaw": -2.592845500129016,
+          "pitch": 0.10744652031871382,
           "rotation": 0,
-          "target": "2-003rgb_color"
+          "target": "1-004"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-002rgb_color",
-      "name": "002.RGB_color",
+      "id": "1-004",
+      "name": "004",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.23210348798104974,
+          "pitch": -0.1444123658315739,
+          "rotation": 0,
+          "target": "0-003"
+        },
+        {
+          "yaw": -1.5767285322104794,
+          "pitch": 0.05325066916660681,
+          "rotation": 0,
+          "target": "3-002"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-001",
+      "name": "001",
       "levels": [
         {
           "tileSize": 256,
@@ -68,23 +112,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.6916268134714247,
-          "pitch": 0.23599877833473037,
+          "yaw": 1.1387833979007027,
+          "pitch": 0.09381601426724728,
           "rotation": 0,
-          "target": "2-003rgb_color"
-        },
-        {
-          "yaw": -1.691624191913677,
-          "pitch": 0.2359961567769826,
-          "rotation": 0,
-          "target": "2-003rgb_color"
+          "target": "3-002"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-003rgb_color",
-      "name": "003.RGB_color",
+      "id": "3-002",
+      "name": "002",
       "levels": [
         {
           "tileSize": 256,
@@ -104,24 +142,24 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2000,
+      "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.5877436348996259,
-        "pitch": 0.1489136547941179,
-        "fov": 1.403086486818207
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.1320634152363453,
-          "pitch": 0.1964957155434668,
+          "yaw": 0.5514487537099626,
+          "pitch": 0.03403229330904978,
           "rotation": 0,
-          "target": "0-001"
+          "target": "1-004"
         },
         {
-          "yaw": 1.1313911181641352,
-          "pitch": 0.08699095246808497,
+          "yaw": -1.0008006282342183,
+          "pitch": 0.061556692726069784,
           "rotation": 0,
-          "target": "1-002rgb_color"
+          "target": "2-001"
         }
       ],
       "infoHotspots": []
